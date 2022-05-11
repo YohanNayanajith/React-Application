@@ -6,7 +6,7 @@ const ExpenseFilter = (props) => {
     // props.filterChangeHandler();
     const dropdownChangeHandler = (event) => {
         console.log(event);
-        props.onChangeFilter(props.target.value);
+        props.onChangeFilter(event.target.value);
     }
 
   return (
